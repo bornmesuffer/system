@@ -1,0 +1,198 @@
+.header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+ul {
+    list-style-type: none ;
+    margin: 0;
+    padding: 13px;
+    font-size: 17px;
+    overflow: hidden;
+    background-color : cornflowerblue;
+    text-decoration: none;
+    position: sticky;
+    text-align: center;
+   
+}
+  li {
+      display: inline;
+      float: left;
+      text-align: center;
+      font-size: 18px;
+      margin-top: 8px;
+      margin-right: 16px;
+      padding: 14px 16px;
+  }
+  a {
+      padding: 8px;
+      background-color: cornflowerblue;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      font-size: 18px;
+  }
+  a:hover{
+      background-color: rgb(114, 135, 153);
+      color: skyblue;
+  }
+  a :active{
+      background-color: rgb(64, 85, 124) ;
+      color: rgb(3, 68, 68);
+  }
+  #mySearch {
+      float: right;
+      border-radius: 3px;
+      border: none;
+      font-size: 17px;
+      padding: 14px 16px;
+      margin-top: 16px;
+      margin-right: 16px;
+  }
+  /* input[type=text] {
+    width:30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+  }
+  input[type=text]:focus {
+    width: 70%;
+  } */
+  
+  ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cornflowerblue;
+}
+
+ul.tab li {float: left;}
+
+ul.tab li a {
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 18px;
+
+}
+
+ul.tab li a:hover { background-color: steelblue;
+  color: skyblue;
+}
+
+ul.tab li a:focus, .active {background-color: lightslategrey;}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    font-family: serif;
+    font-size: 18px;
+}
+.table {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.tr {
+  text-align: center;
+  padding: 10px 20px;
+}
+#more {
+  display : none;
+}
+#more1 {
+  display: none;
+}
+#more2 {
+  display: none;
+}
+#more3 {
+  display: none;
+}
+#moreB {
+  display: none;
+}
+button {
+  cursor: pointer;
+  background-color: darkgray;
+  color: white;
+  padding: 17px;
+  border : none
+}
+  @media screen and (max-width: 900px) {
+  .sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+
+    .sidenav li a {
+      float: left;
+      padding: 15px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .sidenav li a {
+      text-align: center;
+      float: none;
+    }
+}
+  
+  /* ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: cornflowerblue;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  ul.sidenav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+   
+  ul.sidenav li a.active {
+    background-color: rgb(64, 85, 124);
+    color: white;
+  }
+  
+  ul.sidenav li a:hover:not(.active) {
+    background-color: rgb(64, 85, 124)5;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  @media screen and (max-width: 900px) {
+    ul.sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    
+    ul.sidenav li a {
+      float: left;
+      padding: 15px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    ul.sidenav li a {
+      text-align: center;
+      float: none;
+    }
+} */
